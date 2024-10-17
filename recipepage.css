@@ -1,0 +1,149 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3e5d7;
+  font-family: outfit, sans-serif;
+  height: 100vh;
+  color: #5f564d;
+}
+
+.card {
+  background-color: white;
+  width: 50rem;
+  border-radius: 2.4rem;
+  padding: 3rem;
+  margin: 0 auto;
+  box-shadow: ;
+}
+
+img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+h1 {
+  font-family: "young serif", serif;
+  font-size: 4rem;
+  letter-spacing: 0;
+  line-height: 100%;
+  margin: 4rem 0;
+}
+
+.sub-heading {
+  font-size: 2.8rem;
+  font-family: "young serif", serif;
+  color: #854632;
+  margin: 1.5rem 0;
+}
+.recipe-description {
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.prepartion-times {
+  background-color: #fff7fb;
+  padding: 2.4rem 0 0.5rem 0;
+  border-radius: 1.2rem;
+  margin: 3.2rem 2.4rem 0.5rem 0;
+}
+
+.prepartion-times h2 {
+  font-size: 2rem;
+  color: #7a284e;
+  margin: 0 0 1.6rem 0;
+  padding-left: 2rem;
+  font-weight: 600;
+}
+
+.prepartion-times ul {
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  line-height: 200%;
+  padding: 0 3.4rem;
+}
+
+.prepartion-times ul span {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.ingredients ul {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-left: 1rem;
+}
+
+.ingredients li {
+  padding: 0;
+  list-style-position: inside;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0;
+}
+
+.ingredients ul span {
+  margin-left: 1.6rem;
+}
+
+.ingredients ul li:last-child {
+  margin-bottom: 2.4rem;
+}
+
+hr {
+  border: 0.5px solid #e3ddd7;
+}
+
+.instructions .numero {
+  margin-left: 3px;
+  color: #854632;
+  font-weight: bold;
+}
+.instructions-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 1.2rem;
+}
+
+.instructions ol span {
+  font-weight: bold;
+  margin: 16px;
+}
+
+.nutrition-line {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.nutrition p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* .nutrition-line p:first-child {
+  margin-left: 10px;
+} */
+
+.nutrition-line .nutri {
+  display: flex;
+  width: 50%;
+}
+
+.nutrition-line .nutri:first-child {
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+
+.nutrition-line .nutri:nth-child(2) {
+  font-weight: bold;
+  margin-left: 20px;
+  color: #854632;
+}
